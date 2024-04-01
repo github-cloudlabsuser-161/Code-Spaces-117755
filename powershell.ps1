@@ -1,6 +1,9 @@
-# Define parameters
+# Login to Azure
+Connect-AzAccount
+
+# Set variables
 $resourceGroupName = "myResourceGroup"
-$location = "West Europe"
+$location = "westeurope"
 $storageAccountName = "mystorageaccount"
 
 # Create a resource group
